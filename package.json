@@ -1,0 +1,30 @@
+{
+  "name": "appkit-collapsible",
+  "version": "1.0.0",
+  "description": "React Native Collapsible Content for Appkit",
+  "scripts": {},
+  "keywords": [],
+  "repository": "empty",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-native-collapsible": "^0.12.0"
+  },
+  "engines": {
+    "appkit": "^1.0.0"
+  },
+  "appkit": {
+    "modules": [],
+    "components": [
+      {
+        "name": "Collapsible",
+        "script": "collapsible.js"
+      },
+      {
+        "name": "Accordian",
+        "script": "accordian.js"
+      }
+    ],
+    "libs": []
+  }
+}
